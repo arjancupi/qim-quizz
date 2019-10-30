@@ -1,7 +1,7 @@
 self.__precacheManifest = [
   {
-    "revision": "84287d09b8053c6fa598893b8910786a",
-    "url": "/qim-quizz/static/media/logo.84287d09.svg"
+    "revision": "ee9e8b1b8a22b14981ce838aa5f7f789",
+    "url": "/qim-quizz/static/media/logo.ee9e8b1b.svg"
   },
   {
     "revision": "4cffa739f751f90686ec3ac6e9b56e0d",
@@ -12,19 +12,19 @@ self.__precacheManifest = [
     "url": "/qim-quizz/static/js/runtime~main.12b6297c.js"
   },
   {
-    "revision": "80cbe059420ea6e1f351",
-    "url": "/qim-quizz/static/js/main.80cbe059.chunk.js"
+    "revision": "f6eb1c7b75d0a904d07e",
+    "url": "/qim-quizz/static/js/main.f6eb1c7b.chunk.js"
   },
   {
     "revision": "ded38213626027bc3761",
     "url": "/qim-quizz/static/js/1.ded38213.chunk.js"
   },
   {
-    "revision": "80cbe059420ea6e1f351",
-    "url": "/qim-quizz/static/css/main.dc9cfca1.chunk.css"
+    "revision": "f6eb1c7b75d0a904d07e",
+    "url": "/qim-quizz/static/css/main.35f9b9a1.chunk.css"
   },
   {
-    "revision": "32a9723218c638f92e60d507ecf53606",
+    "revision": "eef53f31f58dbbb148ad2bc06d03ec4a",
     "url": "/qim-quizz/index.html"
   }
 ];

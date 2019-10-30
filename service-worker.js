@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.2/workbox-sw.js");
 
 importScripts(
-  "/qim-quizz/precache-manifest.db03e1f8d72f78f6b7ff94eae0925fb1.js"
+  "/qim-quizz/precache-manifest.3d12ec08cae64d37c7c4d50d26fb7a73.js"
 );
 
 workbox.clientsClaim();
