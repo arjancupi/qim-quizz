@@ -12,19 +12,19 @@ self.__precacheManifest = [
     "url": "/qim-quizz/static/js/runtime~main.12b6297c.js"
   },
   {
-    "revision": "86b46adaa8c2c6e638f2",
-    "url": "/qim-quizz/static/js/main.86b46ada.chunk.js"
+    "revision": "cb9dc627ade9c52fe8b2",
+    "url": "/qim-quizz/static/js/main.cb9dc627.chunk.js"
   },
   {
-    "revision": "5a80405e8fff7c81f25f",
-    "url": "/qim-quizz/static/js/1.5a80405e.chunk.js"
+    "revision": "9df5ff697a25e4d166a6",
+    "url": "/qim-quizz/static/js/1.9df5ff69.chunk.js"
   },
   {
-    "revision": "86b46adaa8c2c6e638f2",
-    "url": "/qim-quizz/static/css/main.bc10538a.chunk.css"
+    "revision": "cb9dc627ade9c52fe8b2",
+    "url": "/qim-quizz/static/css/main.dc9cfca1.chunk.css"
   },
   {
-    "revision": "bc54bef9dbcb988d05327ad3a04a3176",
+    "revision": "f35e40c9abc1b26dc46bca47a044d8a5",
     "url": "/qim-quizz/index.html"
   }
 ];

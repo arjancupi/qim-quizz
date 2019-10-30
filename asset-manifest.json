@@ -1,15 +1,15 @@
 {
-  "main.css": "/qim-quizz/static/css/main.bc10538a.chunk.css",
-  "main.js": "/qim-quizz/static/js/main.86b46ada.chunk.js",
-  "main.js.map": "/qim-quizz/static/js/main.86b46ada.chunk.js.map",
-  "static/js/1.5a80405e.chunk.js": "/qim-quizz/static/js/1.5a80405e.chunk.js",
-  "static/js/1.5a80405e.chunk.js.map": "/qim-quizz/static/js/1.5a80405e.chunk.js.map",
+  "main.css": "/qim-quizz/static/css/main.dc9cfca1.chunk.css",
+  "main.js": "/qim-quizz/static/js/main.cb9dc627.chunk.js",
+  "main.js.map": "/qim-quizz/static/js/main.cb9dc627.chunk.js.map",
+  "static/js/1.9df5ff69.chunk.js": "/qim-quizz/static/js/1.9df5ff69.chunk.js",
+  "static/js/1.9df5ff69.chunk.js.map": "/qim-quizz/static/js/1.9df5ff69.chunk.js.map",
   "runtime~main.js": "/qim-quizz/static/js/runtime~main.12b6297c.js",
   "runtime~main.js.map": "/qim-quizz/static/js/runtime~main.12b6297c.js.map",
-  "static/css/main.bc10538a.chunk.css.map": "/qim-quizz/static/css/main.bc10538a.chunk.css.map",
+  "static/css/main.dc9cfca1.chunk.css.map": "/qim-quizz/static/css/main.dc9cfca1.chunk.css.map",
   "static/media/logo.svg": "/qim-quizz/static/media/logo.84287d09.svg",
   "static/media/index.css": "/qim-quizz/static/media/icon-check.4cffa739.svg",
   "index.html": "/qim-quizz/index.html",
-  "precache-manifest.eb5520bdc0ab98fd457fd114b03ed894.js": "/qim-quizz/precache-manifest.eb5520bdc0ab98fd457fd114b03ed894.js",
+  "precache-manifest.c9ede6aa024dfb5c756b85eb0f671aaf.js": "/qim-quizz/precache-manifest.c9ede6aa024dfb5c756b85eb0f671aaf.js",
   "service-worker.js": "/qim-quizz/service-worker.js"
 }
