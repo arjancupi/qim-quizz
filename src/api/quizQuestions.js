@@ -1,15 +1,17 @@
-var quizQuestions = [{
+var quizQuestions = [
+  {
     question: "What decade did formal research in AI begin ?",
-    answers: [{
-        type: "incorrect-1",
-        content: "1940s"
+    answers: [
+      {
+        type: "correct",
+        content: "1950s"
       },
       {
-        type: "incorrect-2",
+        type: "incorrect",
         content: "1960s"
       },
       {
-        type: "correct",
+        type: "incorrect",
         content: "1980s"
       },
       {
@@ -18,9 +20,12 @@ var quizQuestions = [{
       }
     ]
   },
+
   {
-    question: "The area of AI that investigates on methods of facilitating communication between people and computer is :",
-    answers: [{
+    question:
+      "The area of AI that investigates on methods of facilitating communication between people and computer is :",
+    answers: [
+      {
         type: "incorrect",
         content: "Machine learning"
       },
@@ -40,8 +45,10 @@ var quizQuestions = [{
   },
 
   {
-    question: "The practice of using algorithms to parse data, learn from it, and then make a determination or prediction about something is :",
-    answers: [{
+    question:
+      "The practice of using algorithms to parse data, learn from it, and then make a determination or prediction about something is :",
+    answers: [
+      {
         type: "correct",
         content: "Machine learning"
       },
@@ -61,8 +68,10 @@ var quizQuestions = [{
   },
 
   {
-    question: "A language model is composed in  a set of elements, which does not include:",
-    answers: [{
+    question:
+      "A language model is composed in  a set of elements, which does not include:",
+    answers: [
+      {
         type: "incorrect",
         content: "Language units"
       },
@@ -83,7 +92,8 @@ var quizQuestions = [{
 
   {
     question: "Which of the following methods is NOT a learning method ?",
-    answers: [{
+    answers: [
+      {
         type: "incorrect",
         content: "Memorization"
       },
@@ -104,7 +114,8 @@ var quizQuestions = [{
 
   {
     question: "Which programming language is NOT commonly used for AI?",
-    answers: [{
+    answers: [
+      {
         type: "incorrect",
         content: "PROLOG"
       },
@@ -124,8 +135,10 @@ var quizQuestions = [{
   },
 
   {
-    question: "Which of the following concepts is a component of an expert system?",
-    answers: [{
+    question:
+      "Which of the following concepts is a component of an expert system?",
+    answers: [
+      {
         type: "incorrect",
         content: "Inference engine"
       },
@@ -139,14 +152,15 @@ var quizQuestions = [{
       },
       {
         type: "correct",
-        content: "All of the above"
+        content: "All of mentioned"
       }
     ]
   },
 
   {
     question: "Who is considered as the “father” of artificial intelligence?",
-    answers: [{
+    answers: [
+      {
         type: "correct",
         content: "Fisher Ada"
       },
@@ -167,7 +181,8 @@ var quizQuestions = [{
 
   {
     question: "What is the goal of artificial intelligence?",
-    answers: [{
+    answers: [
+      {
         type: "incorrect",
         content: "To solve real-world problems"
       },
@@ -188,7 +203,8 @@ var quizQuestions = [{
 
   {
     question: "How does a decision tree make a decision ?",
-    answers: [{
+    answers: [
+      {
         type: "incorrect",
         content: "After a single test"
       },
@@ -209,7 +225,8 @@ var quizQuestions = [{
 
   {
     question: "What takes an object described by a set of attributes as input?",
-    answers: [{
+    answers: [
+      {
         type: "incorrect",
         content: "Random forest"
       },
@@ -230,7 +247,8 @@ var quizQuestions = [{
 
   {
     question: "What are the tasks an AI system can perform?",
-    answers: [{
+    answers: [
+      {
         type: "incorrect",
         content: "Act as a virtual assistant"
       },
@@ -249,32 +267,34 @@ var quizQuestions = [{
     ]
   },
 
-
   {
-    question: "Which of the following is an application of natural language processing?",
-    answers: [{
-        type: "incorrect",
-        content: "Voice assistants like Amazon Alexa and Siri"
-      },
-      {
-        type: "incorrect",
-        content: "Chatbots"
-      },
-      {
-        type: "incorrect",
-        content: "Sentiment analysis"
-      },
+    question:
+      "Software designed to facilitate a conversation between a computer and a human enduser is called a :",
+    answers: [
       {
         type: "correct",
-        content: "All of mentioned"
+        content: "ChatBot"
+      },
+      {
+        type: "incorrect",
+        content: "Real time messaging"
+      },
+      {
+        type: "incorrect",
+        content: "Interactive voice response"
+      },
+      {
+        type: "incorrect",
+        content: "Walkie Talkie"
       }
     ]
   },
 
-
   {
-    question: "While evaluating a classifier’s performance, what do we mean by the ‘sensitivity’ of our model?",
-    answers: [{
+    question:
+      "While evaluating a classifier’s performance, what do we mean by the ‘sensitivity’ of our model?",
+    answers: [
+      {
         type: "incorrect",
         content: "False positive rate"
       },
@@ -293,32 +313,11 @@ var quizQuestions = [{
     ]
   },
 
-
   {
-    question: "What is the Bayes theorem formula?",
-    answers: [{
-        type: "incorrect",
-        content: "	P(A│B)=(P(B) P(B|A)) / (P(A))"
-      },
+    question:
+      "Which of the following is true about model capacity (the ability of a neural network to approximate complex functions)?",
+    answers: [
       {
-        type: "incorrect",
-        content: "	P(A│B)=(P(A) P(B|A)) / (P(A))"
-      },
-      {
-        type: "correct",
-        content: "	P(A│B)=(P(A) P(B|A)) / ( P(B))"
-      },
-      {
-        type: "incorrect",
-        content: "	P(A│B)=(P(B) P(B|A)) / (P(B))"
-      }
-    ]
-  },
-
-
-  {
-    question: "Which of the following is true about model capacity (the ability of a neural network to approximate complex functions)?",
-    answers: [{
         type: "correct",
         content: "As number of hidden layers increase, model capacity increases"
       },
@@ -337,10 +336,10 @@ var quizQuestions = [{
     ]
   },
 
-
   {
     question: "What is(are) an(some) advantage(s) of decision trees?",
-    answers: [{
+    answers: [
+      {
         type: "incorrect",
         content: "Possible Scenarios can be added"
       },
@@ -350,7 +349,8 @@ var quizQuestions = [{
       },
       {
         type: "incorrect",
-        content: "Worst, best and expected values can be determined for different scenarios"
+        content:
+          "Worst, best and expected values can be determined for different scenarios"
       },
       {
         type: "correct",
@@ -359,10 +359,10 @@ var quizQuestions = [{
     ]
   },
 
-
   {
     question: "In unsupervised learning :",
-    answers: [{
+    answers: [
+      {
         type: "incorrect",
         content: "Specific output values are given"
       },
@@ -381,10 +381,10 @@ var quizQuestions = [{
     ]
   },
 
-
   {
     question: "Neural Networks are complex ______________with many parameters",
-    answers: [{
+    answers: [
+      {
         type: "incorrect",
         content: "Linear Functions "
       },
@@ -403,12 +403,13 @@ var quizQuestions = [{
     ]
   },
 
-
   {
     question: "What is a perceptron?",
-    answers: [{
+    answers: [
+      {
         type: "correct",
-        content: "a single layer feed-forward neural network with pre-processing"
+        content:
+          "a single layer feed-forward neural network with pre-processing"
       },
       {
         type: "incorrect",
@@ -425,10 +426,11 @@ var quizQuestions = [{
     ]
   },
 
-
   {
-    question: "In which of the following learning paradigm the agent receives rewards and punishements based on the outcome?",
-    answers: [{
+    question:
+      "In which of the following learning paradigm the agent receives rewards and punishements based on the outcome?",
+    answers: [
+      {
         type: "incorrect",
         content: "Active Learning"
       },
@@ -447,10 +449,10 @@ var quizQuestions = [{
     ]
   },
 
-
   {
     question: "Decision trees are appropriate for the problems where : ",
-    answers: [{
+    answers: [
+      {
         type: "incorrect",
         content: "The output is numerical"
       },
@@ -464,25 +466,27 @@ var quizQuestions = [{
       },
       {
         type: "correct",
-        content: "All of the mentioned "
+        content: "All of mentioned "
       }
     ]
   },
 
-
   {
     question: "How can back propagation be defined ? ",
-    answers: [{
+    answers: [
+      {
         type: "incorrect",
         content: "Another name given to the curvy function "
       },
       {
         type: "incorrect",
-        content: "The transmission of error back through the network to adjust the inputs "
+        content:
+          "The transmission of error back through the network to adjust the inputs "
       },
       {
         type: "correct",
-        content: "The transmission of error back through the network to ajdust weights "
+        content:
+          "The transmission of error back through the network to adjust weights "
       },
       {
         type: "incorrect",
@@ -491,32 +495,32 @@ var quizQuestions = [{
     ]
   },
 
-
   {
-    question: "In Bayes theorem, what is meant by P(Hi|E)?",
-    answers: [{
+    question: "The system that allows a computer to make decisions is called :",
+    answers: [
+      {
+        type: "incorrect",
+        content: "Experiment System"
+      },
+      {
         type: "correct",
-        content: "The probability that hypotheses Hi is true given evidence E"
+        content: "Expert System"
       },
       {
         type: "incorrect",
-        content: "The probability that hypotheses Hi is false given evidence E"
+        content: "Random Search Generator"
       },
       {
         type: "incorrect",
-        content: "The probability that hypotheses Hi is true given false evidence E"
-      },
-      {
-        type: "incorrect",
-        content: "The probability that hypotheses Hi is false given false evidence E"
+        content: "None of These"
       }
     ]
   },
 
-
   {
     question: "What text mining technique can be used for noise reduction?",
-    answers: [{
+    answers: [
+      {
         type: "incorrect",
         content: "Lemmatization"
       },
@@ -535,10 +539,11 @@ var quizQuestions = [{
     ]
   },
 
-
   {
-    question: "What is the most efficient way of handling missing or corrupted categorical data in terms of information loss reduction?",
-    answers: [{
+    question:
+      "What is the most efficient way of handling missing or corrupted categorical data in terms of information loss reduction?",
+    answers: [
+      {
         type: "incorrect",
         content: "Drop missing rows or columns"
       },
@@ -552,15 +557,15 @@ var quizQuestions = [{
       },
       {
         type: "incorrect",
-        content: "All of the mentioned"
+        content: "All of mentioned"
       }
     ]
   },
 
-
   {
     question: "Which of the following is enabled by the kernel trick?",
-    answers: [{
+    answers: [
+      {
         type: "incorrect",
         content: "Regularization"
       },
@@ -579,10 +584,11 @@ var quizQuestions = [{
     ]
   },
 
-
   {
-    question: "What technique(s) could be used to adjust the parameters and minimize the cost function?",
-    answers: [{
+    question:
+      "What technique(s) could be used to adjust the parameters and minimize the cost function?",
+    answers: [
+      {
         type: "incorrect",
         content: "Exhaustive Search"
       },
@@ -601,10 +607,11 @@ var quizQuestions = [{
     ]
   },
 
-
   {
-    question: "What could be the reason for the loss to not decrease in the first few epochs while training a neural network?",
-    answers: [{
+    question:
+      "What could be the reason for the loss to not decrease in the first few epochs while training a neural network?",
+    answers: [
+      {
         type: "incorrect",
         content: "The learning rate is low"
       },
@@ -623,10 +630,11 @@ var quizQuestions = [{
     ]
   },
 
-
   {
-    question: "What regularization process(es) enable(s) deep neural architectures training?",
-    answers: [{
+    question:
+      "What regularization process(es) enable(s) deep neural architectures training?",
+    answers: [
+      {
         type: "incorrect",
         content: "Batch normalization"
       },
@@ -645,10 +653,11 @@ var quizQuestions = [{
     ]
   },
 
-
   {
-    question: "Computational learning theory analyzes the sample complexity and computational complexity of :",
-    answers: [{
+    question:
+      "Computational learning theory analyzes the sample complexity and computational complexity of :",
+    answers: [
+      {
         type: "incorrect",
         content: "Unsupervised Learning"
       },
@@ -667,32 +676,11 @@ var quizQuestions = [{
     ]
   },
 
-
   {
-    question: "The RBF kernel on two samples x and x', represented as feature vectors in some input space, is defined as: ",
-    answers: [{
-        type: "correct",
-        content: "𝐾 (𝑥,𝑥′)=exp(−||𝑥−𝑥′||22𝜎2) "
-      },
+    question:
+      "If a decision process outputs positive evidence to reject an hypothesis, but in reality the hypothesis holds, it is a: ",
+    answers: [
       {
-        type: "incorrect",
-        content: "𝐾 (𝑥,𝑥′)=−exp(−||𝑥−𝑥′||22𝜎2) "
-      },
-      {
-        type: "incorrect",
-        content: "𝐾 (𝑥,𝑥′)=exp(−||𝑥+𝑥′||22𝜎2) "
-      },
-      {
-        type: "incorrect",
-        content: "𝐾 (𝑥,𝑥′)=exp(−||−(𝑥−𝑥′)||22𝜎2) "
-      }
-    ]
-  },
-
-
-  {
-    question: "If a decision process outputs positive evidence to reject an hypothesis, but in reality the hypothesis holds, it is a: ",
-    answers: [{
         type: "incorrect",
         content: "Type II error"
       },
@@ -711,10 +699,10 @@ var quizQuestions = [{
     ]
   },
 
-
   {
     question: "Which of the following is also called exploratory learning?",
-    answers: [{
+    answers: [
+      {
         type: "incorrect",
         content: "Supervised learning"
       },
@@ -733,10 +721,11 @@ var quizQuestions = [{
     ]
   },
 
-
   {
-    question: "In language processing, which levels of knowledge are not included?",
-    answers: [{
+    question:
+      "In language processing, which levels of knowledge are not included?",
+    answers: [
+      {
         type: "incorrect",
         content: "Semantical"
       },
@@ -755,10 +744,11 @@ var quizQuestions = [{
     ]
   },
 
-
   {
-    question: "WHow is the process of deleting certain neurons at random during the training of a neural network called?",
-    answers: [{
+    question:
+      "How is the process of deleting certain neurons at random during the training of a neural network called?",
+    answers: [
+      {
         type: "incorrect",
         content: "Random subsampling"
       },
@@ -777,10 +767,10 @@ var quizQuestions = [{
     ]
   },
 
-
   {
     question: "What name(s) can be given to some decision tree nodes?",
-    answers: [{
+    answers: [
+      {
         type: "incorrect",
         content: "Decision Nodes"
       },
@@ -794,193 +784,84 @@ var quizQuestions = [{
       },
       {
         type: "correct",
-        content: "All of the mentioned"
+        content: "All of mentioned"
       }
     ]
   },
 
-
   {
-    question: "What is the maximum likelihood estimator of beta in Y Xbeta + epsilon for the training set {(xi,yi)}i ",
-    answers: [{
-        type: "correct",
-        content: "beta = (XTX)-1XTy"
+    question: "Which of these does NOT use machine learning/AI?",
+    answers: [
+      {
+        type: "incorrect",
+        content: "Driverless cars"
       },
       {
         type: "incorrect",
-        content: "beta = (XXT)-1XTy"
-      },
-      {
-        type: "incorrect",
-        content: "beta = (XTX)-1Xy "
-      },
-      {
-        type: "incorrect",
-        content: "beta = (XXT)-1Xy"
-      }
-    ]
-  },
-
-
-  {
-    question: "What is the maximum likelihood estimator for the ridge regression ? ",
-    answers: [{
-        type: "correct",
-        content: "beta = (XTX+lambdaI)-1XTy"
-      },
-      {
-        type: "incorrect",
-        content: "beta = (XXT+lambdaI)-1XTy "
-      },
-      {
-        type: "incorrect",
-        content: "beta = (XTX+lambdaI)-1Xy"
-      },
-      {
-        type: "incorrect",
-        content: "beta = (XXT+lambdaI)-1Xy"
-      }
-    ]
-  },
-
-
-  {
-    question: "What is an auto-associative network?",
-    answers: [{
-        type: "incorrect",
-        content: "A neural network containing no loop"
+        content: "SIRI"
       },
       {
         type: "correct",
-        content: "A neural network that contains a feedback"
+        content: "Sonos wireless speakers"
       },
       {
         type: "incorrect",
-        content: "A neural network with only one loop "
-      },
-      {
-        type: "incorrect",
-        content: "A single layer feed-forward neural network with pre-processing"
+        content: "Facial recognition on phone"
       }
     ]
   },
 
-
   {
-    question: "Among the following, which one is not a horn clause? ",
-    answers: [{
-        type: "incorrect",
-        content: "p"
-      },
+    question: "AI has a conscience ",
+    answers: [
       {
         type: "incorrect",
-        content: "Øp V q "
-      },
-      {
-        type: "incorrect",
-        content: "p → q"
+        content: "True"
       },
       {
         type: "correct",
-        content: "p → Øq"
+        content: "False "
+      },
+      {
+        type: "incorrect",
+        content: "May Be"
+      },
+      {
+        type: "incorrect",
+        content: "Depend of cases"
       }
     ]
   },
 
-
   {
-    question: "Among the following, which one is not a horn clause? ",
-    answers: [{
-        type: "incorrect",
-        content: "p"
-      },
+    question: "Which one of these is not an area of AI?",
+    answers: [
       {
         type: "incorrect",
-        content: "Øp V q "
-      },
-      {
-        type: "incorrect",
-        content: "p → q"
+        content: "Computer Vison"
       },
       {
         type: "correct",
-        content: "p → Øq"
+        content: "Web design"
+      },
+      {
+        type: "incorrect",
+        content: "Robotics"
+      },
+      {
+        type: "incorrect",
+        content: "voice Recognition"
       }
     ]
   },
-
-
-  {
-    question: "What is the relationship between a node and its predecessors in a bayesian network ",
-    answers: [{
-        type: "incorrect",
-        content: "Functionnally dependent"
-      },
-      {
-        type: "incorrect",
-        content: "Dependant "
-      },
-      {
-        type: "correct",
-        content: "Conditionally independent"
-      },
-      {
-        type: "incorrect",
-        content: "Both Conditionally dependent and Dependant"
-      }
-    ]
-  },
-
-
-  {
-    question: "Which type of penalty can be, in some cases, interpreted as performing features selection (shrinking some weights exactly to zero)",
-    answers: [{
-        type: "incorrect",
-        content: "L2 penalty"
-      },
-      {
-        type: "incorrect",
-        content: "Dropout"
-      },
-      {
-        type: "correct",
-        content: "L1 penalty"
-      },
-      {
-        type: "incorrect",
-        content: "Elastic net"
-      }
-    ]
-  },
-
-
-  {
-    question: "What is the LASSO optimization problem?",
-    answers: [{
-        type: "correct",
-        content: "min𝛽0,𝛽{1𝑁 ∑(𝑦𝑖−𝛽0− 𝑥𝑖𝑇𝛽)2𝑁𝑖=1} 𝑠𝑢𝑏𝑗𝑒𝑐𝑡 𝑡𝑜 ∑|𝛽𝑗|𝑝𝑗=1≤𝑡 "
-      },
-      {
-        type: "incorrect",
-        content: "min𝛽0,𝛽{1𝑁 ∑(𝑦𝑖−𝛽0− 𝑥𝑖𝑇𝛽)2𝑁𝑖=1} 𝑠𝑢𝑏𝑗𝑒𝑐𝑡 𝑡𝑜 ∑𝛽𝑗2𝑝𝑗=1≤𝑡 "
-      },
-      {
-        type: "incorrect",
-        content: "min𝛽0,𝛽{1𝑁 ∑(𝑦𝑖−𝛽0− 𝑥𝑖𝑇𝛽)2𝑁𝑖=1} 𝑠𝑢𝑏𝑗𝑒𝑐𝑡 𝑡𝑜 ∑|𝛽𝑗|2𝑝𝑗=1≤𝑡 "
-      },
-      {
-        type: "incorrect",
-        content: "min𝛽0,𝛽{1𝑁 ∑(𝑦𝑖−𝛽0− 𝑥𝑖𝑇𝛽)2𝑁𝑖=1} 𝑠𝑢𝑏𝑗𝑒𝑐𝑡 𝑡𝑜 ∑𝛽𝑗2𝑝𝑗=1≤−𝑡 "
-      }
-    ]
-  },
-
 
   {
     question: "Why is Weight Initialization important in Neural Networks? ",
-    answers: [{
+    answers: [
+      {
         type: "correct",
-        content: "To prevent gradient from vanishing during the course of a backward pass "
+        content:
+          "To prevent gradient from vanishing during the course of a backward pass "
       },
       {
         type: "incorrect",
@@ -995,17 +876,16 @@ var quizQuestions = [{
         content: "For regularization purposes "
       }
     ]
-  },
-
-
+  }
 ];
 
-quizQuestions.forEach((question, questionIndex) => question.answers.forEach((answer, answerIndex) => {
+quizQuestions.forEach((question, questionIndex) =>
+  question.answers.forEach((answer, answerIndex) => {
     if (answer.type === "incorrect") {
-        answer.type = `incorrect-${questionIndex}-${answerIndex}`
+      answer.type = `incorrect-${questionIndex}-${answerIndex}`;
     }
-}))
+  })
+);
 
-console.log(quizQuestions)
 
 export default quizQuestions;

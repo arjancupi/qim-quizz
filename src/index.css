@@ -20,8 +20,8 @@ code {
 body {
   margin: 0;
   padding: 0;
-  background: #eee;
-  font-family: sans-serif;
+  background: #0071ce;
+  font-family: 'PT Sans', sans-serif !important;
 }
 
 .container {
@@ -110,9 +110,9 @@ body {
 
 .radioCustomButton:checked ~ .radioCustomLabel:before {
   content: '';
-  background: #8bc53f url(./svg/icon-check.svg) no-repeat;
+  background: #CFDE00 url(./svg/icon-check.svg) no-repeat;
   background-size: 27px;
-  border-color: #8bc53f;
+  border-color: #CFDE00;
 }
 
 /* Animation */

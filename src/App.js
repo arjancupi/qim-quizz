@@ -1,9 +1,12 @@
 import React, { Component } from 'react';
+
+import { HashRouter as Router, Switch, Route } from 'react-router-dom';
 import quizQuestions from './api/quizQuestions';
 import Quiz from './components/Quiz';
 import Result from './components/Result';
 import logo from './svg/logo.svg';
 import './App.css';
+import { CSSTransitionGroup } from 'react-transition-group';
 
 class App extends Component {
   constructor(props) {
@@ -17,7 +20,8 @@ class App extends Component {
       answer: '',
       answersCount: {},
       result: '',
-      questionsCount: 10
+      questionsCount: 10,
+      quizzTitle: 'Qim Quizz'
     };
 
     this.handleAnswerSelected = this.handleAnswerSelected.bind(this);
@@ -55,7 +59,6 @@ class App extends Component {
 
   handleAnswerSelected(event) {
     this.setUserAnswer(event.currentTarget.value);
-    console.log(event)
     if (this.state.questionId < this.state.questionsCount) {
       setTimeout(() => this.setNextQuestion(), 300);
     } else {
@@ -87,14 +90,12 @@ class App extends Component {
   }
 
   getResults() {
-    debugger
     const answersCount = this.state.answersCount;
-    return answersCount.correct === 10 ? 'win' : 'lost'
+    return answersCount.correct >= (this.state.questionsCount / 2 ) ? 'win' : 'lost'
   }
 
   setResults(result) {
     this.setState({ result: result });
-    console.log(this.state.result)
   }
 
   renderQuiz() {
@@ -111,18 +112,56 @@ class App extends Component {
   }
 
   renderResult() {
-    return <Result quizResult={this.state.result} />;
+    return <Result {...this.state} quizResult={this.state.result} />;
   }
 
   render() {
     return (
-      <div className="App">
-        <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h2>React Quiz</h2>
+      <Router>
+        <div className="App">
+          <div className="App-header">
+            <img src={logo} className="App-logo" alt="logo" />
+            <h2 style={{color: "#CFDE00"}}> { this.state.quizzTitle }</h2>
+          </div>
+          {this.state.result ? this.renderResult() : this.renderQuiz()}
         </div>
-        {this.state.result ? this.renderResult() : this.renderQuiz()}
-      </div>
+        <Switch>
+          <Route path='/winners' component={Winners} />
+        </Switch>
+      </Router>
+    );
+  }
+}
+
+function renderWinnersEmails(email, index) {
+  return (
+    <p key={index}>{email}</p>
+  );
+}
+
+class Winners extends Component {
+  render() {
+    let div;
+    const storedEmails = JSON.parse(localStorage.getItem("emails"));
+    if (!storedEmails) {
+      div= (<p>No winners to display</p>)
+    } 
+    if (storedEmails) {
+      div = storedEmails.map(renderWinnersEmails)
+    }
+    return (
+      <CSSTransitionGroup
+        className="container result"
+        component="div"
+        transitionName="fade"
+        transitionEnterTimeout={800}
+        transitionLeaveTimeout={500}
+        transitionAppear
+        transitionAppearTimeout={500}
+        >
+          <h2>Winners</h2>
+          {div}
+      </CSSTransitionGroup>
     );
   }
 }
