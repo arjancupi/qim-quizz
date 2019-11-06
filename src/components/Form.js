@@ -2,8 +2,6 @@ import React, { Component } from "react";
 import { Doughnut } from "react-chartjs-2";
 import FormErrors from "./FormErrors";
 import {
-  FacebookShareButton,
-  FacebookIcon,
   TwitterShareButton,
   TwitterIcon,
   LinkedinShareButton,
@@ -114,13 +112,10 @@ class Form extends Component {
           Share your score on social media !
         </h3>
         <div style={{display:'flex'}}>
-          <FacebookShareButton url='www.google.fr' hashtag="#AMLD2020" quote='blabla'>
-            <FacebookIcon size={64} round={true} />
-          </FacebookShareButton>
-          <TwitterShareButton url='blabla' hashtags={["#AMLD2020"]}>
+          <TwitterShareButton url='https://twitter.com/Qiminfo' hashtags={["AMLD2020"]}>
             <TwitterIcon size={64} round={true} />
           </TwitterShareButton>
-          <LinkedinShareButton url='blabla' hashtags={["#AMLD2020"]}>
+          <LinkedinShareButton url='https://www.linkedin.com/company/qim-info'>
             <LinkedinIcon size={64} round={true} />
           </LinkedinShareButton>
         </div>
