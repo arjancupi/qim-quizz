@@ -112,7 +112,7 @@ class Form extends Component {
           Share your score on social media !
         </h3>
         <div style={{display:'flex'}}>
-          <TwitterShareButton url='https://twitter.com/Qiminfo' hashtags={["AMLD2020"]}>
+          <TwitterShareButton url='https://twitter.com/Qiminfo' hashtags={["AMLD2020","QimQuizz","Qiminfo"]}>
             <TwitterIcon size={64} round={true} />
           </TwitterShareButton>
           <LinkedinShareButton url='https://www.linkedin.com/company/qim-info'>
