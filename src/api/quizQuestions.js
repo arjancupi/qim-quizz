@@ -693,7 +693,7 @@ var quizQuestions = [
         content: "Type I error"
       },
       {
-        type: "correct",
+        type: "incorrect",
         content: "Specialized hypothesis"
       }
     ]
