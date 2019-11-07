@@ -62,33 +62,11 @@ var quizQuestions = [
       },
       {
         type: "incorrect",
-        content: "Natural language processing"
+        content: "None of These"
       }
     ]
   },
 
-  {
-    question:
-      "A language model is composed in  a set of elements, which does not include:",
-    answers: [
-      {
-        type: "incorrect",
-        content: "Language units"
-      },
-      {
-        type: "incorrect",
-        content: "Role structure of units"
-      },
-      {
-        type: "incorrect",
-        content: "System constraints"
-      },
-      {
-        type: "correct",
-        content: "Structural units"
-      }
-    ]
-  },
 
   {
     question: "Which of the following methods is NOT a learning method ?",
@@ -113,64 +91,43 @@ var quizQuestions = [
   },
 
   {
-    question: "Which programming language is NOT commonly used for AI?",
+    question: "Which programming language is commonly used for AI?",
     answers: [
       {
         type: "incorrect",
-        content: "PROLOG"
+        content: "Boa"
       },
       {
-        type: "incorrect",
+        type: "correct",
         content: "Python"
       },
       {
         type: "incorrect",
-        content: "LISP"
+        content: "Viper"
       },
       {
-        type: "correct",
-        content: "Perl"
+        type: "incorrect",
+        content: "Cobra"
       }
     ]
   },
 
-  {
-    question:
-      "Which of the following concepts is a component of an expert system?",
-    answers: [
-      {
-        type: "incorrect",
-        content: "Inference engine"
-      },
-      {
-        type: "incorrect",
-        content: "Knowledge base"
-      },
-      {
-        type: "incorrect",
-        content: "User interface"
-      },
-      {
-        type: "correct",
-        content: "All of mentioned"
-      }
-    ]
-  },
+
 
   {
     question: "Who is considered as the “father” of artificial intelligence?",
     answers: [
       {
         type: "correct",
-        content: "Fisher Ada"
+        content: "Donald Trump"
       },
       {
         type: "incorrect",
-        content: "John McCarthy"
+        content: "Kim Jong-Un"
       },
       {
         type: "incorrect",
-        content: "Allen Newell"
+        content: "Vladimir Poutine"
       },
       {
         type: "incorrect",
@@ -269,7 +226,7 @@ var quizQuestions = [
 
   {
     question:
-      "Software designed to facilitate a conversation between a computer and a human enduser is called a :",
+      "Software designed to simulate a conversation between a computer and a human enduser is called a :",
     answers: [
       {
         type: "correct",
@@ -277,11 +234,11 @@ var quizQuestions = [
       },
       {
         type: "incorrect",
-        content: "Real time messaging"
+        content: "Scream"
       },
       {
         type: "incorrect",
-        content: "Interactive voice response"
+        content: "Sharepoint"
       },
       {
         type: "incorrect",
@@ -382,7 +339,7 @@ var quizQuestions = [
   },
 
   {
-    question: "Neural Networks are complex ______________with many parameters",
+    question: "Neural Networks are mainly used for modeling complex ______________with many parameters",
     answers: [
       {
         type: "incorrect",
@@ -496,28 +453,6 @@ var quizQuestions = [
   },
 
   {
-    question: "The system that allows a computer to make decisions is called :",
-    answers: [
-      {
-        type: "incorrect",
-        content: "Experiment System"
-      },
-      {
-        type: "correct",
-        content: "Expert System"
-      },
-      {
-        type: "incorrect",
-        content: "Random Search Generator"
-      },
-      {
-        type: "incorrect",
-        content: "None of These"
-      }
-    ]
-  },
-
-  {
     question: "What text mining technique can be used for noise reduction?",
     answers: [
       {
@@ -534,7 +469,7 @@ var quizQuestions = [
       },
       {
         type: "correct",
-        content: "A and C"
+        content: "Lemmatization and stemming"
       }
     ]
   },
@@ -824,7 +759,7 @@ var quizQuestions = [
       },
       {
         type: "incorrect",
-        content: "May Be"
+        content: "Maybe"
       },
       {
         type: "incorrect",
@@ -850,7 +785,7 @@ var quizQuestions = [
       },
       {
         type: "incorrect",
-        content: "voice Recognition"
+        content: "Voice recognition"
       }
     ]
   },
