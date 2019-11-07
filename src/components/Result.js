@@ -7,12 +7,24 @@ const reload = () => window.location.reload();
 
 function Result(props) {
   let div;
-  console.log(props)
   if (props.quizResult === 'lost') {
     div = (
       <div>
         <p>You failed the quizz...</p>
-        <button onClick={reload}> Try again ?</button>
+        <button 
+          style={{  
+            background: '#0071ce',
+            border: 'none',
+            color: 'white',
+            padding: '15px 32px',
+            textAlign: 'center',
+            textDecoration: 'none',
+            display: 'inline-block',
+            fontSize: '16px',
+            fontFamily: 'PT Sans, sans-serif',
+            borderRadius:'4px'
+          }} 
+        onClick={reload}> Try again ?</button>
       </div>
     )
   }
